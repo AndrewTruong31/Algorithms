@@ -13,8 +13,8 @@ int main(){
     printf("\nORIGINAL ARRAY\n");
     printArray(arr, num);
 
-    // arr = insertionSort(arr, num); //Calls BubbleSort to sort the function
-    mergeSort(arr, 0, num - 1);
+    arr = insertionSort(arr, num); //Calls BubbleSort to sort the function
+    // mergeSort(arr, 0, num - 1);
     
     printf("\n\nSORTED ARRAY\n");
     printArray(arr, num);
